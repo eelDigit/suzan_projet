@@ -1,0 +1,24 @@
+.dashboard-admin {
+  display: flex;
+  justify-content: center;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
+
+.dashboard-admin article {
+  margin-bottom: 1.25em;
+  text-align: center;
+  border: 0.05em solid var(--mediumGreen);
+}
+
+.dashboard-admin h4 {
+  font-family: var(--fontRegular);
+  text-align: center;
+  background-color: rgba(0, 128, 0, 0.2); /* Couleur de fond avec opacité */
+  border-radius: 0.5em; /* Coins arrondis */
+  padding: 0.2em; /* Espace intérieur au cadre */
+  max-width: 100%;
+  margin: 0.3em;
+  margin-top: 1em;
+  box-shadow: var(--ombre);
+}

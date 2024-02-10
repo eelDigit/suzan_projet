@@ -1,0 +1,116 @@
+[{
+  "_id": {
+    "$oid": "659f1003ad64dc7fc39cf15d"
+  },
+  "login": "dellmm",
+  "email": "delle@gmail.com",
+  "password": "$2b$10$zQ3RBR5c8Tu7DsY0aVHHMekgc09wMuWyZMU/dcEBFtA1AcVguI7ba",
+  "role": "user",
+  "createdAt": {
+    "$date": "2024-01-10T21:45:39.562Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-07T17:52:24.400Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "659f1155ad64dc7fc39cf164"
+  },
+  "login": "plumeau",
+  "email": "hallo@gmail.com",
+  "password": "$2b$10$vY1U7uLZAZ89pfwmgAFnqewTWNMti7zxS50hdLhlSoiqqnqhjopzu",
+  "role": "user",
+  "createdAt": {
+    "$date": "2024-01-10T21:51:17.092Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-04T12:08:23.466Z"
+  },
+  "__v": 0,
+  "description": "Bienvenue sur le profil d'une folle avide de lectures :333",
+  "image": {
+    "src": "1706357939987-59c4904f768d93d913b81468366dadf5.jpg",
+    "alt": "59c4904f768d93d913b81468366dadf5.jpg"
+  }
+},
+{
+  "_id": {
+    "$oid": "65a6d97122949b2831b9e675"
+  },
+  "login": "user123456!",
+  "email": "user123456!@gmail.com",
+  "password": "$2b$10$J5Dx8w1NZ4xJVikzJ9NXE.yjBY/bvXONV1gpG4WjTdph4EysYzRNK",
+  "role": "user",
+  "createdAt": {
+    "$date": "2024-01-16T19:30:57.555Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-16T19:30:57.555Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65a78ca30930b8a0f140c191"
+  },
+  "login": "clarab",
+  "email": "nouveau@gmail.com",
+  "password": "$2b$10$s8sm9UINa56uqUUjW1PtXufUmWxA3DivtE1S7chGUEQfpiKUzT5G2",
+  "role": "user",
+  "createdAt": {
+    "$date": "2024-01-17T08:15:31.470Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-06T19:06:34.381Z"
+  },
+  "__v": 0,
+  "image": {
+    "src": "1706194056225-1.jpeg",
+    "alt": "1.jpeg"
+  },
+  "description": "Bienvenue dans mon univers littéraire ! Je suis Clara B., exploratrice des mots et créatrice d'histoires 🌿📖 \r\n\r\n#EcrirePourEmbrasserLaNature"
+},
+{
+  "_id": {
+    "$oid": "65a9330242d1daec040d1e85"
+  },
+  "login": "kellyjane",
+  "email": "jeanne@gmail.com",
+  "password": "$2b$10$/oqyyR7dDT/6tsEZR1JRpemneWEk1qAEold8IQ1qR5ZvVwAd0/uh2",
+  "role": "admin",
+  "createdAt": {
+    "$date": "2024-01-18T14:17:38.859Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-07T17:03:35.516Z"
+  },
+  "__v": 0,
+  "image": {
+    "src": "1707040048885-Ã©criture-de-vintage-manuscrit-antique-fond-de-papier-48113805.jpg",
+    "alt": "Ã©criture-de-vintage-manuscrit-antique-fond-de-papier-48113805.jpg"
+  },
+  "description": "C'est la page de l'admin du site !"
+},
+{
+  "_id": {
+    "$oid": "65bf7ec99ac9d729fe3201f4"
+  },
+  "login": "radjiv",
+  "email": "radjiv@gmail.com",
+  "password": "$2b$10$nCVB0myJOq2ZwB1N5KiC9eT/9jDgnqhkkSLP5H1hrI.RJjdIE0rwu",
+  "role": "user",
+  "createdAt": {
+    "$date": "2024-02-04T12:10:49.469Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-04T12:12:10.622Z"
+  },
+  "__v": 0,
+  "description": "Découvrez un univers rempli de bonheur et joie en lisant mes écrits !",
+  "image": {
+    "src": "1707048730609-3c84bcd2330f3deac0e8bf3a768fdf7c.jpg",
+    "alt": "3c84bcd2330f3deac0e8bf3a768fdf7c.jpg"
+  }
+}]

@@ -1,0 +1,138 @@
+@import "../root.css";
+
+footer {
+  background-color: var(--darkGreen);
+  color: var(--mediumGreen);
+  font-family: var(--fontRegular);
+  font-size: 0.8em;
+  margin: 0;
+  padding: 1em;
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.f-section1 {
+  display: block;
+  justify-content: center;
+}
+
+.f-section1 img {
+  height: 3em;
+  margin-left: 0.3em;
+}
+
+.f-logo {
+  display: flex;
+}
+
+.f-article1 {
+  text-align: justify;
+}
+
+footer h3 {
+  text-transform: uppercase;
+}
+
+.f-section2 {
+  display: flex;
+}
+
+.f-article2,
+.f-article3 {
+  flex: 1;
+  margin-right: 1em;
+}
+
+.f-article3 {
+  margin-right: 0;
+}
+
+.f-link {
+  color: var(--mediumGreen);
+}
+
+.f-link:hover {
+  color: var(--hoverGreen);
+  transition: color 0.3s ease-in-out;
+}
+
+.f-article4 ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+/* Animation de rotation pour le bouton */
+.f-article4 button {
+  background-color: var(--darkGreen);
+  border: none;
+  font-size: 2em;
+  transition: transform 0.3s ease-in-out;
+}
+
+.f-article4 button:hover {
+  transform: rotate(360deg);
+}
+
+/* Appliquer l'animation de pulse aux icônes */
+.f-icon1,
+.f-icon2,
+.f-icon3,
+.f-icon4 {
+  animation: pulse 1s infinite alternate;
+}
+
+.f-icon1 {
+  color: #1877f2;
+}
+.f-icon2 {
+  color: #1da1f2;
+}
+.f-icon3 {
+  color: #d62976;
+}
+.f-icon4 {
+  color: #0e76a8;
+}
+
+.f-section4 {
+  font-family: var(--fontItalic);
+  font-size: 1.4em;
+  animation: slideIn 1s ease-in-out;
+}
+
+/* Animation de défilement pour la section 2 */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animation de pulse pour les icônes */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

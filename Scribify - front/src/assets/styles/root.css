@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora&display=swap");
+
+:root {
+  /*variable globale */
+  --mediumGreen: #b0b9a8;
+  --darkGreen: #424340;
+  --orange: #db986b;
+  --blue: #264066;
+  --white: #fff;
+
+  --hoverColor: #7f8572;
+  --hoverBG: rgba(255, 255, 255, 0.1);
+
+  --hoverBlue: #4184a3;
+  --hoverGreen: #ebf9e2;
+
+  --transitionColor: color 0.3s ease-in-out;
+  --transitionBG: background-color 0.3s ease-in-out;
+  --transitionOpacity: opacity 0.5s ease-in-out;
+
+  --fontRegular: "Lora", serif;
+  --fontItalic: "Great Vibes", cursive;
+
+  --ombre: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
+}

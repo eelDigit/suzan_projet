@@ -1,0 +1,324 @@
+[{
+  "_id": {
+    "$oid": "65c0c307edd87776d030a9d2"
+  },
+  "name": "Romance",
+  "description": "C'est le genre de romance",
+  "image": {
+    "src": "1707308700722-romance.jpeg",
+    "alt": "romance.jpeg"
+  },
+  "createdAt": {
+    "$date": "2024-02-05T11:14:15.105Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-07T12:25:00.751Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c0c5af8b38ef1cf2774ed6"
+  },
+  "name": "Horreur",
+  "description": "C'est le genre horreur",
+  "image": {
+    "src": "1707308724057-peur.jpeg",
+    "alt": "peur.jpeg"
+  },
+  "createdAt": {
+    "$date": "2024-02-05T11:25:35.315Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-07T12:25:24.062Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c226fb8415ad220a3b2379"
+  },
+  "name": "Policier",
+  "description": "C'est le genre policier",
+  "image": {
+    "src": "1707309249924-policier.jpeg",
+    "alt": "policier.jpeg"
+  },
+  "createdAt": {
+    "$date": "2024-02-06T12:32:59.772Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-07T12:34:09.934Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c389dd4fe9d6ce566a994e"
+  },
+  "name": "Fiction",
+  "description": "C'est le genre fiction",
+  "image": {
+    "src": "1707313629394-pexels-photo-3616498.svg",
+    "alt": "pexels-photo-3616498.svg"
+  },
+  "createdAt": {
+    "$date": "2024-02-07T13:47:09.426Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-07T13:47:09.426Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c389f14fe9d6ce566a9951"
+  },
+  "name": "Science-Fiction",
+  "description": "C'est le genre science-fiction",
+  "image": {
+    "src": "",
+    "alt": ""
+  },
+  "createdAt": {
+    "$date": "2024-02-07T13:47:29.560Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-07T13:47:29.560Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c389fd4fe9d6ce566a9954"
+  },
+  "name": "Mystère",
+  "description": "C'est le genre mystère",
+  "image": {
+    "src": "",
+    "alt": ""
+  },
+  "createdAt": {
+    "$date": "2024-02-07T13:47:41.801Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-07T13:47:41.801Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c38a0b4fe9d6ce566a9957"
+  },
+  "name": "Historique",
+  "description": "C'est le genre historique",
+  "image": {
+    "src": "",
+    "alt": ""
+  },
+  "createdAt": {
+    "$date": "2024-02-07T13:47:55.439Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-07T13:47:55.439Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c38a184fe9d6ce566a995a"
+  },
+  "name": "Biographie",
+  "description": "C'est le genre biographie",
+  "image": {
+    "src": "",
+    "alt": ""
+  },
+  "createdAt": {
+    "$date": "2024-02-07T13:48:08.536Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-07T13:48:08.536Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c38a234fe9d6ce566a995d"
+  },
+  "name": "Essais",
+  "description": "C'est le genre essais",
+  "image": {
+    "src": "",
+    "alt": ""
+  },
+  "createdAt": {
+    "$date": "2024-02-07T13:48:19.688Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-07T13:48:19.688Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c38a7b4fe9d6ce566a996f"
+  },
+  "name": "Cuisine",
+  "description": "C'est le genre cuisine",
+  "image": {
+    "src": "",
+    "alt": ""
+  },
+  "createdAt": {
+    "$date": "2024-02-07T13:49:47.776Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-07T13:49:47.776Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c38a884fe9d6ce566a9972"
+  },
+  "name": "Jeunesse",
+  "description": "C'est le genre jeunesse",
+  "image": {
+    "src": "",
+    "alt": ""
+  },
+  "createdAt": {
+    "$date": "2024-02-07T13:50:00.265Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-07T13:50:00.265Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c38a914fe9d6ce566a9975"
+  },
+  "name": "Poésie",
+  "description": "C'est le genre poésie",
+  "image": {
+    "src": "",
+    "alt": ""
+  },
+  "createdAt": {
+    "$date": "2024-02-07T13:50:09.964Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-07T13:50:09.964Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c38a9c4fe9d6ce566a9978"
+  },
+  "name": "Religion",
+  "description": "C'est le genre religion",
+  "image": {
+    "src": "",
+    "alt": ""
+  },
+  "createdAt": {
+    "$date": "2024-02-07T13:50:20.740Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-07T13:50:20.740Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c38acd4fe9d6ce566a997b"
+  },
+  "name": "Humour",
+  "description": "C'est le genre humour",
+  "image": {
+    "src": "",
+    "alt": ""
+  },
+  "createdAt": {
+    "$date": "2024-02-07T13:51:09.727Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-07T13:53:29.571Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c38ad94fe9d6ce566a997e"
+  },
+  "name": "Fantaisie",
+  "description": "C'est le genre fantaisie",
+  "image": {
+    "src": "",
+    "alt": ""
+  },
+  "createdAt": {
+    "$date": "2024-02-07T13:51:21.905Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-07T13:51:21.905Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c3af195c077c8f07a363e0"
+  },
+  "name": "Tranche de vie",
+  "description": "C'est le genre tranche de vie",
+  "image": {
+    "src": "",
+    "alt": ""
+  },
+  "createdAt": {
+    "$date": "2024-02-07T16:26:01.750Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-07T16:26:01.750Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c3af2d5c077c8f07a363e3"
+  },
+  "name": "School-Life",
+  "description": "C'est le genre school-life",
+  "image": {
+    "src": "",
+    "alt": ""
+  },
+  "createdAt": {
+    "$date": "2024-02-07T16:26:21.476Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-07T16:26:21.476Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c3af365c077c8f07a363e6"
+  },
+  "name": "Sport",
+  "description": "C'est le genre sport",
+  "image": {
+    "src": "",
+    "alt": ""
+  },
+  "createdAt": {
+    "$date": "2024-02-07T16:26:30.483Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-07T16:26:30.483Z"
+  },
+  "__v": 0
+}]

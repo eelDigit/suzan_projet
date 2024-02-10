@@ -1,0 +1,251 @@
+[{
+  "_id": {
+    "$oid": "65c0c49fedd87776d030a9d8"
+  },
+  "userId": {
+    "$oid": "65a9330242d1daec040d1e85"
+  },
+  "categoryId": [
+    {
+      "$oid": "65c0c307edd87776d030a9d2"
+    }
+  ],
+  "title": "jejf",
+  "chapters": [
+    {
+      "title": "Chapite 1",
+      "content": "<p>iurufu</p>",
+      "date": {
+        "$date": "2024-02-05T11:21:03.388Z"
+      },
+      "_id": {
+        "$oid": "65c0c49fedd87776d030a9d9"
+      }
+    }
+  ],
+  "description": "iuifueuir",
+  "image": {
+    "src": "1707132063362-couverture-chef.png",
+    "alt": "couverture-chef.png"
+  },
+  "views": 31,
+  "likes": [],
+  "comments": [
+    {
+      "userId": {
+        "$oid": "65a78ca30930b8a0f140c191"
+      },
+      "content": "j'aime beaucoup !",
+      "date": {
+        "$date": "2024-02-06T18:39:12.231Z"
+      },
+      "_id": {
+        "$oid": "65c27cd09082a7296b8631d1"
+      },
+      "answers": []
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-02-05T11:21:03.399Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-07T17:44:53.242Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c0c8a18b38ef1cf2774f55"
+  },
+  "userId": {
+    "$oid": "65a9330242d1daec040d1e85"
+  },
+  "categoryId": [
+    {
+      "$oid": "65c0c8d38b38ef1cf2774fae"
+    }
+  ],
+  "title": "dfr",
+  "chapters": [
+    {
+      "title": "iuuif",
+      "content": "<p>iuezfui</p>",
+      "date": {
+        "$date": "2024-02-05T11:38:09.761Z"
+      },
+      "_id": {
+        "$oid": "65c0c8a18b38ef1cf2774f56"
+      }
+    }
+  ],
+  "description": "iuuef",
+  "image": {
+    "src": "1707133089751-couverture-disparue.png",
+    "alt": "couverture-disparue.png"
+  },
+  "views": 90,
+  "likes": [],
+  "comments": [
+    {
+      "userId": {
+        "$oid": "65a9330242d1daec040d1e85"
+      },
+      "content": "hello",
+      "date": {
+        "$date": "2024-02-06T18:30:58.417Z"
+      },
+      "_id": {
+        "$oid": "65c27ae2e6fc1bdbe365e1f3"
+      },
+      "answers": []
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-02-05T11:38:09.765Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-07T16:21:07.955Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c0dd4ad7e7cd50f1d2a51b"
+  },
+  "userId": {
+    "$oid": "65a78ca30930b8a0f140c191"
+  },
+  "categoryId": [
+    {
+      "$oid": "65c0c8ca8b38ef1cf2774fab"
+    },
+    {
+      "$oid": "65c0c8d38b38ef1cf2774fae"
+    }
+  ],
+  "title": "Nouveau ",
+  "chapters": [
+    {
+      "title": "hekk",
+      "content": "<p>ifiu</p>",
+      "date": {
+        "$date": "2024-02-05T13:06:18.021Z"
+      },
+      "_id": {
+        "$oid": "65c0dd4ad7e7cd50f1d2a51c"
+      }
+    }
+  ],
+  "description": "dufruie",
+  "image": {
+    "src": "1707138377991-couverture-chants.png",
+    "alt": "couverture-chants.png"
+  },
+  "views": 22,
+  "likes": [
+    "65a78ca30930b8a0f140c191"
+  ],
+  "comments": [
+    {
+      "userId": {
+        "$oid": "65a78ca30930b8a0f140c191"
+      },
+      "content": "Hello",
+      "date": {
+        "$date": "2024-02-06T18:37:57.868Z"
+      },
+      "_id": {
+        "$oid": "65c27c859082a7296b8630a1"
+      },
+      "answers": [
+        {
+          "userId": {
+            "$oid": "65a78ca30930b8a0f140c191"
+          },
+          "content": "J'adore",
+          "date": {
+            "$date": "2024-02-06T18:38:17.502Z"
+          },
+          "_id": {
+            "$oid": "65c27c999082a7296b8630c3"
+          }
+        }
+      ]
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-02-05T13:06:18.024Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-07T16:22:55.282Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c139ed2818c395006b77d5"
+  },
+  "userId": {
+    "$oid": "65a9330242d1daec040d1e85"
+  },
+  "categoryId": [
+    {
+      "$oid": "65c0c5af8b38ef1cf2774ed6"
+    },
+    {
+      "$oid": "65c226fb8415ad220a3b2379"
+    }
+  ],
+  "title": "nouveau",
+  "chapters": [
+    {
+      "title": "TITRE DU CHAPITRE 1",
+      "content": "<p>hello</p>",
+      "date": {
+        "$date": "2024-02-05T19:41:33.872Z"
+      },
+      "_id": {
+        "$oid": "65c139ed2818c395006b77d6"
+      }
+    },
+    {
+      "title": "chapitre 2",
+      "content": "<p>uidfgiruegiu</p>",
+      "date": {
+        "$date": "2024-02-06T18:54:49.604Z"
+      },
+      "_id": {
+        "$oid": "65c280799082a7296b863638"
+      }
+    }
+  ],
+  "description": "uefzui",
+  "image": {
+    "src": "1707162093853-couverture-desespoir.png",
+    "alt": "couverture-desespoir.png"
+  },
+  "views": 177,
+  "likes": [],
+  "comments": [
+    {
+      "userId": {
+        "$oid": "65bf7ec99ac9d729fe3201f4"
+      },
+      "content": "j'adore !!",
+      "date": {
+        "$date": "2024-02-06T18:40:12.714Z"
+      },
+      "_id": {
+        "$oid": "65c27d0c9082a7296b863325"
+      },
+      "answers": []
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-02-05T19:41:33.876Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-07T17:32:21.058Z"
+  },
+  "__v": 0
+}]

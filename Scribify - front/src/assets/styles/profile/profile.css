@@ -1,0 +1,151 @@
+.p-section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--darkGreen);
+  height: 24em;
+  font-family: var(--fontRegular);
+  color: var(--mediumGreen);
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.p-section1 img {
+  height: 8em;
+  width: 8em;
+  border-radius: 50%;
+  animation: zoomIn 1s ease-in-out;
+}
+
+.p-section1 h3 {
+  text-transform: capitalize;
+  animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.p-section1 p {
+  font-size: 0.8em;
+  text-align: justify;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.p-article1 {
+  display: flex;
+}
+
+.profile-icon {
+  font-size: 2.4em;
+  color: var(--mediumGreen);
+}
+
+.p-article1 #pic1 {
+  position: absolute;
+  padding-top: 2.3em;
+  padding-left: 2.2em;
+  animation: zoomIn 1s ease-in-out;
+}
+
+.p-article1 #pic2 {
+  margin-right: 0.5em;
+  position: absolute;
+  right: 0;
+}
+
+.p-article2 {
+  display: flex;
+}
+
+.p-sous-section pre {
+  padding-left: 1em;
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+.p-section2 {
+  color: var(--darkGreen);
+  font-family: var(--fontRegular);
+}
+
+.p-section2 h2 {
+  font-family: var(--fontItalic);
+  font-size: 2em;
+  padding-left: 1em;
+}
+
+.p-sous-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  border: 0.1em solid #aab8a8;
+  width: 17em;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  padding: 1em;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.p-article3 {
+  display: flex;
+}
+
+.p-sous-section img {
+  height: 12em;
+  width: 8em;
+  animation: zoomIn 1s ease-in-out; /* Add this line for the zoomIn animation */
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.p-title {
+  text-transform: uppercase;
+  color: var(--orange);
+  padding-bottom: 1em;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.p-article4 {
+  padding-top: 1em;
+  text-align: center;
+}
+
+.p-article4 pre {
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+.p-article4 .categories {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  color: var(--mediumGreen);
+}
+
+.p-article6 {
+  padding-top: 0.5em;
+}

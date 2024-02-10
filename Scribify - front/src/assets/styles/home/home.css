@@ -1,0 +1,180 @@
+main {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.h-section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--orange);
+  height: 21.2em;
+}
+
+.h-section1 p {
+  margin: 0;
+}
+.h-section1 ul {
+  margin: 0;
+}
+
+.h-article1 {
+  padding-bottom: 0.5em;
+}
+
+.h-article1 p {
+  color: var(--darkGreen);
+  font-family: var(--fontItalic);
+  font-size: 1.9em;
+  line-height: 1.4;
+  margin-top: 0.5em;
+  text-shadow: var(--ombre);
+}
+
+.h-link1,
+.h-link2 {
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  font-family: var(--fontRegular);
+  color: white;
+  position: relative;
+  border-radius: 2em;
+  margin-bottom: 0.3em;
+  margin-top: 0.3em;
+}
+
+.h-link1 {
+  background-color: var(--blue);
+}
+
+.h-link2 {
+  background-color: var(--mediumGreen);
+}
+
+.h-link1:hover {
+  background-color: var(--hoverBlue);
+}
+
+.h-link2:hover {
+  background-color: var(--hoverGreen);
+}
+
+.h-article2 {
+  margin: 0;
+  width: 17em;
+  overflow: hidden;
+}
+
+.h-article2 img {
+  height: 11em;
+}
+
+.images {
+  display: flex;
+  animation-duration: 20s;
+  animation-name: animationImages;
+  animation-iteration-count: infinite;
+}
+
+/* Ajoutez ces styles à votre feuille de style existante */
+
+.h-popular-section {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.h-section2 {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -ms-overflow-style: none;
+  transition: all 0.5s ease;
+}
+
+.h-article3 {
+  display: inline-block;
+  margin-right: 0.4em;
+  margin-left: 0.4em;
+  transition: transform 0.3s ease; /* Ajoutez une transition pour l'effet de mise à l'échelle */
+
+  &:hover {
+    transform: scale(1.1); /* Appliquez l'effet de mise à l'échelle au survol */
+  }
+}
+
+.h-section2::-webkit-scrollbar {
+  display: none;
+}
+
+.h-popular-section button {
+  background-color: white;
+}
+.scroll-button {
+  color: var(--mediumGreen);
+  border: none;
+  font-size: 2.3em;
+}
+
+.scroll-button.left {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.scroll-button.right {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.h-title {
+  font-family: var(--fontRegular);
+  font-size: 0.8em;
+  text-align: center;
+  color: var(--orange);
+  margin-top: 0.5em;
+}
+
+.h-img1 {
+  height: 10em;
+}
+
+.h-recent-section {
+  max-height: 12em;
+  overflow-y: auto;
+  margin: 1em;
+}
+
+.h-chapters {
+  font-family: var(--fontRegular);
+  color: var(--darkGreen);
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes animationImages {
+  0% {
+    transform: translateX(0);
+  }
+  35% {
+    transform: translateX(-16em);
+  }
+
+  70% {
+    transform: translateX(-32em);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

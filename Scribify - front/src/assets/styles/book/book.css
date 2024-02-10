@@ -1,0 +1,132 @@
+.b-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  border: 0.1em solid #aab8a8;
+  width: 17em;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding: 1em;
+  animation: fadeIn 1s ease-in-out;
+}
+
+h2 {
+  color: var(--darkGreen);
+  font-family: var(--fontItalic);
+  font-size: 1.8em;
+  animation: slideIn 1s ease-in-out;
+  text-align: center;
+  background-color: rgba(0, 128, 0, 0.2); /* Couleur de fond avec opacité */
+  border-radius: 0.5em; /* Coins arrondis */
+  padding: 0.3em; /* Espace intérieur au cadre */
+  max-width: 100%;
+  margin: 1em;
+  box-shadow: var(--ombre);
+
+  transition: transform 0.3s ease; /* Ajout d'une transition pour l'effet de mise à l'échelle */
+}
+
+h2:hover {
+  transform: scale(1.1); /* Effet de mise à l'échelle lors du survol */
+}
+
+.b-title {
+  text-transform: uppercase;
+  color: var(--orange);
+  padding-bottom: 1em;
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.b-article1 {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+}
+
+.style-base {
+  font-size: 0.8em;
+}
+
+.style-base2 {
+  width: 4em;
+  height: 6em;
+  padding-right: 1em;
+}
+
+.book-icon {
+  width: 2em;
+}
+
+#bic1 {
+  color: var(--blue);
+}
+
+#bic2 {
+  color: var(--orange);
+}
+
+#bic3 {
+  color: var(--darkGreen);
+}
+
+.b-article2 {
+  display: flex;
+  align-items: center;
+}
+
+.categories {
+  text-transform: uppercase;
+  font-size: 0.6em;
+  color: var(--mediumGreen);
+}
+
+.style-base3 {
+  text-align: justify;
+}
+
+.b-article-pre {
+  padding-left: 1em;
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+.page-article {
+  color: var(--darkGreen);
+  text-align: justify;
+}
+
+.page-article h3 {
+  text-transform: uppercase;
+}
+
+.page-article h4 {
+  font-style: italic;
+}
+
+.page-article h3,
+.page-article h4 {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

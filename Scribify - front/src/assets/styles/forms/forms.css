@@ -1,0 +1,127 @@
+@import "../root.css";
+
+.section-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+.section-style2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #f0f0f0;
+  border: 0.1em solid #aab8a8;
+  padding: 1.25em;
+  width: 17em;
+  margin: 0 auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.section-style h2,
+.section-style2 h2 {
+  color: var(--mediumGreen);
+  text-align: center;
+  font-family: var(--fontItalic);
+  font-size: 2em;
+  animation: slideIn 1s ease-in-out; /* Add this line for the animation */
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.form-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 14em;
+  background-color: var(--darkGreen);
+  padding: 2em;
+  font-family: var(--fontRegular);
+}
+
+.form-style2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form label {
+  font-family: var(--fontRegular);
+  color: var(--mediumGreen);
+  margin-bottom: 0.5em;
+  text-align: center;
+  display: block;
+}
+
+form input,
+form textarea {
+  margin: 0 auto;
+  padding: 0.5em;
+  border-radius: 1em;
+  width: 16em;
+  font-family: var(--fontRegular);
+  border: none;
+  justify-content: center;
+  color: var(--darkGreen);
+  transition: transform 0.3s ease; /* Add this line for the scaling effect */
+}
+
+.form-textarea {
+  height: 10em;
+}
+
+form input:hover {
+  transform: scale(1.05); /* Adjust the scale factor as needed */
+}
+
+form button {
+  background-color: var(--mediumGreen);
+  color: var(--darkGreen);
+  padding: 0.5em;
+  border: none;
+  cursor: pointer;
+  font-family: var(--fontRegular);
+  transition: transform 0.3s ease; /* Add this line for the scaling effect */
+}
+
+form button:hover {
+  background-color: var(--hoverGreen);
+  transition: var(--transitionBG), var(--transitionColor);
+  transform: scale(1.05);
+}
+
+form span {
+  color: var(--orange);
+  margin-top: 1.2em;
+  text-align: center;
+  font-size: 0.8em;
+  font-style: italic;
+  animation: slideIn 1s ease-in-out;
+}
+
+.form-button {
+  margin-top: 0.5em;
+  border-radius: 1em;
+  width: 10em;
+}
+
+.ql-editor {
+  margin-top: 1em;
+  border: 0.1em solid #ccc;
+  padding: 1em;
+  min-height: 10em;
+}
